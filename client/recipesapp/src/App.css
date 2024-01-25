@@ -11,6 +11,12 @@ body {
   background: linear-gradient(to right, rgb(1, 24, 52), rgb(1, 24, 52));
   margin: 0;
   padding: 0;
+  color: white; /* Text color for dark mode */
+}
+
+.dark-mode {
+  background: linear-gradient(to right, rgb(1, 24, 52), rgb(1, 24, 52));
+  color: white; /* Text color for dark mode */
 }
 
 .auth {
@@ -21,7 +27,8 @@ body {
   background-color: #f2f2f2;
 }
 
-.auth-container, .create-recipe {
+.auth-container,
+.create-recipe {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,14 +36,15 @@ body {
   padding: 20px;
   background-color: white;
   border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Enhanced box shadow */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   margin: 20px;
   width: 400px;
-  transition: box-shadow 0.3s ease-in-out; /* Transition effect on box shadow */
+  transition: box-shadow 0.3s ease-in-out;
 }
 
-.auth-container:hover, .create-recipe:hover {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Adjusted box shadow on hover */
+.auth-container:hover,
+.create-recipe:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .form-group {
@@ -74,11 +82,11 @@ a {
   text-decoration: none;
   margin: 10px;
   font-size: 25px;
-  transition: color 0.3s ease-in-out; /* Transition effect on color */
+  transition: color 0.3s ease-in-out;
 }
 
 a:hover {
-  color: rgb(1, 24, 52); /* Hover effect color */
+  color: rgb(1, 24, 52);
 }
 
 .create-recipe {
@@ -89,14 +97,14 @@ a:hover {
   padding: 20px;
   background-color: white;
   border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Enhanced box shadow */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   margin: 20px;
   width: 400px;
-  transition: box-shadow 0.3s ease-in-out; /* Transition effect on box shadow */
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .create-recipe:hover {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Adjusted box shadow on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .create-recipe form {

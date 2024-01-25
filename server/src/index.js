@@ -12,6 +12,6 @@ app.use(cors());
 app.use("/auth", userRouter);   //write endpoints asoociated with authentication for testing
 app.use("/recipes", recipesRouter);
 
-mongoose.connect("");
+mongoose.connect();
 
 app.listen(3001, () => console.log("Server started"));
